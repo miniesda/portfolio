@@ -8,7 +8,8 @@ function App() {
       <header className="App-header">
         <h1>Welcome to Portfolio</h1>
         <h2>Work in Progress</h2>
-        {renderer('./glb/chibi.glb', 0, true, './img/ezgif-309121c2291ff113.mp4', 'screen')}
+        {renderer('https://raw.githubusercontent.com/miniesda/portfolio/main/my-app/src/glb/chibi.glb', 0, 
+          true, 'https://raw.githubusercontent.com/miniesda/portfolio/main/my-app/src/img/ezgif-309121c2291ff113.mp4', 'screen')}
       </header>
     </div>
   );
